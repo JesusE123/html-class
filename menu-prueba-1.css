@@ -1,0 +1,39 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #bdc3c7;
+}
+.menubar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    text-align: left;
+    height: 10%;
+}
+.menubar .items-containers {
+    list-style: none;
+    display: inline-block;
+    margin-left: 5%;
+
+}
+.menubar .items-containers .items {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menubar .items-containers .items .imagen{
+    margin-top: 4px;
+}
+
+
+
+
+
+
+    
+
+
