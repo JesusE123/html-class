@@ -2,3 +2,7 @@ h1 {
   color: #3498db;
   background-color: #7f8c8d;
 }
+
+div > p > span {
+  color: red;
+}
