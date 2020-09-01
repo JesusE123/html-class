@@ -192,7 +192,11 @@ button {
          width: 300px;
      }
      .inside-right {
-         padding-left: 150px;
+         text-align: center;
      }
+     .text-alighn {
+         text-align: left;
+         padding-right: 200px;
+     }    
  } 
  
