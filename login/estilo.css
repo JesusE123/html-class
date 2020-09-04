@@ -24,6 +24,7 @@ body {
 }
 label {
     display: block;
+    color: ;
 }
 input {
     border: 1px solid #bdc3c7;

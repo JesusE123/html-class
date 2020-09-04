@@ -1,0 +1,318 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.columna-derecha {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #EAEDF2;
+}
+
+.background {
+    height: 450px;
+    background: #ffffff
+}
+
+.columna-izquierda {
+    background-image: url("./images/jellyfish.jpg");
+    background-position: center center;
+    background-repeat: none;
+    height: 450px;
+    float: left;
+    width: 50%;
+}
+
+label {
+    display: block;
+    color: #190A22;
+}
+
+input[type="text"],
+input[type="password"] {
+    border: 1px solid #EAEDF2;
+    height: 40px;
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+}
+
+input:hover {
+    border: 1px solid #B0B7C6;
+}
+
+.form-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.formulario {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+buttom {
+    color: #1946CA;
+    padding: 10px;
+    border: 2px solid #1946CA;
+    background: #ffffff;
+    border-radius: 100px;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+}
+
+.span {
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.fix-form {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.tarjeta {
+    background: #B0B7C6;
+    border-radius: 8px;
+}
+
+.tarjeta-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.colum {
+    display: inline-block;
+    width: 50%;
+    white-space: normal;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.icono {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+buttom:hover {
+    background: #1946CA;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 10px;
+    color: #B0B7C6;
+    margin-left: 20px;
+}
+
+.span>input[type=checkbox] {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .columna-izquierda {
+        width: 100%;
+        height: 600px;
+        padding-top: 50px;
+    }
+
+    .columna-derecha {
+        display: none;
+    }
+
+    .fix-form {
+        background: #ffffff;
+        border-radius: 8px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .fix-square {
+        padding: 50px;
+    }
+
+    .form-container {
+        padding: 20px;
+    }
+
+    buttom:hover {
+        background: #1946CA;
+        color: #ffffff;
+    }
+
+    .icono {
+        position: absolute;
+        top: 150px;
+        left: 60px;
+    }
+
+    .formulario {
+        padding-left: 0px;
+        padding-top: 20px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        display: inline-block;
+        width: 100%;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .tarjeta-container {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .colum {
+        display: block;
+        margin-top: 10px;
+    }
+
+    buttom {
+        width: 200px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .columna-izquierda {
+        width: 100%;
+        height: 600px;
+        padding-top: 50px;
+    }
+
+    .columna-derecha {
+        display: none;
+    }
+
+    .fix-form {
+        background: #ffffff;
+        border-radius: 8px;
+    }
+
+    .fix-square {
+        padding: 50px;
+    }
+
+    .form-container {
+        padding: 20px;
+    }
+
+    buttom:hover {
+        background: #1946CA;
+        color: #ffffff;
+    }
+
+    .icono {
+        position: absolute;
+        top: 150px;
+        left: 100px;
+    }
+
+    .formulario {
+        padding-left: 0px;
+        padding-top: 20px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        display: inline-block;
+        width: 100%;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {}
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        .columna-izquierda {
+        width: 50%;
+        height: 450px;
+        padding-top: 50px;
+    }
+
+    .columna-derecha {
+        display: inline-block;
+    }
+
+   .columna-izquierda .fix-form {
+        background: #ffffff;
+        border-radius: 8px;
+        display: none;
+    }
+
+    .fix-square {
+        padding: 50px;
+    }
+
+    .form-container {
+        padding: 20px;
+    }
+
+    buttom:hover {
+        background: #1946CA;
+        color: #ffffff;
+    }
+
+  .columna-derecha  .icono {
+        position: absolute;
+        top: 150px;
+        left: 100px;
+        display: none;
+    }
+
+    .formulario {
+        padding-left: 0px;
+        padding-top: 20px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        display: inline-block;
+        width: 100%;
+        text-align: left;
+        white-space: nowrap;
+    }
+    .icono {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+}
