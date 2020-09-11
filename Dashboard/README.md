@@ -9,7 +9,7 @@ Color de las letras: #BFC5CB
 
 Color negrita de las letras: #5E5E5E
 
-Color verde: #49C4AD
+Color verde: #AD49C4
 
 Color naranja: #FFA541
 

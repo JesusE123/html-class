@@ -1,0 +1,296 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #E9EBF0;
+    width: 100%;
+    height: 100%;
+}
+
+.barra_top {
+    width: 100%;
+    height: 70px;
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.barra_left {
+    width: 80px;
+    height: 100%;
+    background: #ffffff;
+    position: fixed;
+    top: 75px;
+    left: 2px;
+}
+
+.icono_top {
+    padding-left: 25px;
+    padding-top: 20px;
+    color: #E9EBF0;
+    position: fixed;
+}
+
+input {
+    margin-left: 150px;
+    width: 200px;
+    border: 1px solid #E9EBF0;
+    border-radius: 15px;
+    height: 30px;
+    position: fixed;
+    margin-top: 20px;
+}
+
+.iconos_barra_left {
+    list-style: none;
+    color: #E9EBF0;
+    padding-left: 8px;
+    font-size: 40px;
+}
+
+.cuadros {
+    background: #ffffff;
+    height: 180px;
+    width: 280px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.Container_cuadros {
+    padding-left: 155px;
+    height: 100%;
+    padding-top: 60px;
+}
+
+.columnas {
+    width: 33.3%;
+    float: left;
+}
+
+p {
+    color: #95a5a6;
+}
+
+span {
+    color: #95a5a6;
+    margin-left: 15px;
+    padding-top: 1px;
+}
+
+.icono>span {
+    margin-left: 20px;
+    color: aqua;
+}
+
+.color_verdecito {
+    color: #49C4AD;
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+}
+
+.icono_2>span {
+    color: #3498db;
+}
+
+.color_azulito {
+    color: #2980b9;
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+}
+
+.icono_3>span {
+    color: #f1c40f;
+}
+
+.color_amarillo {
+    color: #f1c40f;
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+}
+
+.icono_4>span {
+    color: #f1c40f;
+}
+
+.color_naranja {
+    color: #f1c40f;
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+}
+
+.icono_5>span {
+    color: #625BF6;
+}
+
+.color_morado {
+    color: #625BF6;
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+}
+
+.icono_6>span {
+    color: aqua;
+}
+
+.color_verde {
+    color: aqua;
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+}
+
+.reloj>span {
+    float: left;
+}
+
+.icono_izquierda_top {
+    float: right;
+    margin: 22px;
+
+}
+
+h6 {
+    float: right;
+    margin: 30px;
+}
+
+.clear_span {
+    padding: 5px;
+    background: #ecf0f1;
+    width: 50%;
+    height: 25px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+h3 {
+    float: right;
+    margin: 0;
+    padding: 3px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .columnas {
+        width: 100%;
+    }
+
+    input {
+        display: none;
+    }
+
+    .cuadros {
+        width: 200px;
+        height: 200px;
+    }
+
+    .Container_cuadros {
+        padding-left: 100px;
+    }
+
+    .clear_span {
+        float: left;
+        width: 80%;
+        margin-left: 15px;
+        margin-top: 1px;
+    }
+    .color_verdecito {
+        float: left;
+        margin-top: 40px;
+        margin-left: 90px;
+    }
+    .reloj {
+        padding: 1px;
+    }
+    .color_azulito {
+        float: left;
+        margin-top: 40px;
+        margin-left: 90px;
+    }
+    .color_amarillo {
+        float: left;
+        margin-top: 40px;
+        margin-left: 90px;
+        color: #f1c40f;
+    }
+    .color_naranja {
+        float: left;
+        margin-top: 40px;
+        margin-left: 90px;
+    }
+    .color_morado {
+        float: left;
+        margin-top: 40px;
+        margin-left: 90px;
+    }
+    .color_verde {
+        float: left;
+        margin-top: 40px;
+        margin-left: 90px;
+    }
+    .iconos_barra_left {
+        padding-left: 12px;
+    }
+    .icono_top {
+        padding-top: 25px;
+    }
+    .icono_izquierda_top {
+        padding-top: 3px;
+    }
+    h6 {
+        padding-top: 1px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .Container_cuadros {
+        padding-left: 110px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .columnas {
+        width: 50%;
+        float: left;
+    }
+
+    .Container_cuadros {
+        padding-left: 80px;
+    }
+
+    .cuadros {
+        margin-top: 15px;
+    }
+
+    .iconos_barra_left {
+        padding-left: 8px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .Container_cuadros {
+        padding-left: 145px;
+    }
+    .columnas {
+        width: 33.3%;
+    }
+}

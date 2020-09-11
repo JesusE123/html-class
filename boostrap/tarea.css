@@ -1,0 +1,68 @@
+body {
+    background: gray;
+}
+.background {
+    background: white;
+    height: 250px;
+    margin-top: 50px;
+}
+.icono_1 > span {
+    color: aqua;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+h3 {
+    margin-left: 30px;
+    color: gray;
+}
+p {
+    margin-left: 30px;
+    color: gray;
+}
+    
+.reloj > span {
+    margin-left: 15px;
+    float: left;
+    margin-top: 20px;
+    color: #95a5a6;
+    background: #ecf0f1;
+}
+.color_verde {
+    margin-top: 15px;
+    text-align: right;
+    margin-right: 20px;
+    color: aqua;
+}
+.icono_2 > span {
+    color:#3498db;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.color_azul {
+    margin-top: 15px;
+    text-align: right;
+    margin-right: 20px;
+    color: #3498db;
+}
+.icono_3 > span {
+    color: yellow;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.color_amarillo {
+    margin-top: 15px;
+    color: yellow;
+    text-align: right;
+    margin-right: 20px;
+}
+.icono_4 > span {
+    color: yellow;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.color_amarillito {
+    margin-top: 15px;
+    text-align: right;
+    margin-right: 20px;
+    color: yellow;
+}
