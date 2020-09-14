@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background: #E8EFFF !important; 
+}
+.background {
+    background: white;
+    margin-top: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.tittle {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.form-group {
+    padding-right: 5px;
+    padding-left: 5px;
+    position: relative;
+}
+
+buttom {
+    background-color:#3F69CE; 
+}
+.form-control {
+    border: 1px solid #B9D1FC !important;
+    height: 50px !important;
+    padding-left: 35px !important;
+}
+.form-group > span {
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    color:#3F69CE;
+}
+.btn-google {
+    background-color: #E8EFFF !important;
+}
+img {
+    width: 20px;
+} 
+.background > img {
+    position: absolute;
+    width: 15px;
+    right: 30px;
+    top: 30px;
+}
+
+
+
+   
