@@ -1,0 +1,163 @@
+@import "colors";
+
+.blue_menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    background-color: $color_primary;
+
+    & ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+
+        & li {
+            height: 40px;
+            padding-left: 10px;
+            padding-top: 0px;
+            margin-top: 10px;
+            padding-right: 10px;
+
+            &.item-active {
+                background-color: $color_invert;
+                
+            }
+            & a {
+                color: #ffffff !important;
+                position: relative;
+                width: 100%;
+                display: block;
+
+                & span {
+                    display: inline-block;
+                    vertical-align: middle;
+
+                    &.badge {
+                        position: absolute;
+                        top: 7px;
+                        right: 4px;
+                        border-radius: 50%; 
+
+                        &.active-blue {
+                            background: $color_primary;
+                            color: $color_gray;
+                        }
+                    }
+                }
+            }
+
+            &:last-child {
+                border-top: 1px solid #cccccc;
+                padding-top: 10px;
+            }
+
+            &:first-child {
+                border-top: 1px solid #cccccc;
+                padding-top: 10px;
+            }
+
+            &.clear-settings {
+                margin-top: 70px;
+
+
+            }         
+        }
+
+    }
+}
+
+.invert_menu {
+    position: fixed;
+    left: 150px;
+    height: 100%;
+    background-color: $color_invert;
+    width: 250px;
+
+    & ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 60px;
+
+        & li {
+            height: 40px;
+            padding-left: 10px;
+            padding-top: 0;
+            margin-top: 10px;
+            padding-right: 10px;
+
+            &.active-white {
+                background-color: $color_gray;
+                & a {
+                    color: $color_black !important;
+                }
+            }
+
+            & a {
+                color: $color_fonts !important;
+                position: relative;
+                width: 100%;
+                display: block;
+
+                & span {
+                    display: inline-block;
+                    vertical-align: middle;
+
+                    &.reorder {
+                        position: absolute;
+                        top: 5px;
+                        right: 20px;
+                    }
+
+                    &.badge {
+                          position: absolute;
+                          top: 7px;
+                          right: 50px;
+                          border-radius: 50%;
+
+                          &.active-blue {
+                              background-color: $color_primary;
+                              color: $color_gray;
+                          }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.container_box {
+    padding-top: 20px;
+
+    & .tittle {
+        font-weight: bold !important;
+        & span {
+            font-weight: bold;
+        }
+    }
+
+    & .status {
+        color: $color_primary !important;
+        padding: 5px;
+    }   
+
+    & .iconos {
+        vertical-align: middle;
+    }
+    
+    & .font-size {
+        font-size: 20px;
+        height: 0;
+        padding-top: 35px;
+        color: black;
+    }
+
+    & .blue {
+        color: $color_primary !important;
+    }
+
+
+}

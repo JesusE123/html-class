@@ -1,0 +1,164 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+p,
+span,
+a,
+li,
+button {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.blue_menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 150px;
+  height: 100%;
+  background-color: #4673E6;
+}
+.blue_menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+}
+.blue_menu ul li {
+  height: 40px;
+  padding-left: 10px;
+  padding-top: 0px;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+.blue_menu ul li.item-active {
+  background-color: #4F505B;
+}
+.blue_menu ul li a {
+  color: #ffffff !important;
+  position: relative;
+  width: 100%;
+  display: block;
+}
+.blue_menu ul li a span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.blue_menu ul li a span.badge {
+  position: absolute;
+  top: 7px;
+  right: 4px;
+  border-radius: 50%;
+}
+.blue_menu ul li a span.badge.active-blue {
+  background: #4673E6;
+  color: #F3F4F7;
+}
+.blue_menu ul li:last-child {
+  border-top: 1px solid #cccccc;
+  padding-top: 10px;
+}
+.blue_menu ul li:first-child {
+  border-top: 1px solid #cccccc;
+  padding-top: 10px;
+}
+.blue_menu ul li.clear-settings {
+  margin-top: 70px;
+}
+
+.invert_menu {
+  position: fixed;
+  left: 150px;
+  height: 100%;
+  background-color: #4F505B;
+  width: 250px;
+}
+.invert_menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 60px;
+}
+.invert_menu ul li {
+  height: 40px;
+  padding-left: 10px;
+  padding-top: 0;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+.invert_menu ul li.active-white {
+  background-color: #F3F4F7;
+}
+.invert_menu ul li.active-white a {
+  color: #000000 !important;
+}
+.invert_menu ul li a {
+  color: #B8BBC6 !important;
+  position: relative;
+  width: 100%;
+  display: block;
+}
+.invert_menu ul li a span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.invert_menu ul li a span.reorder {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+}
+.invert_menu ul li a span.badge {
+  position: absolute;
+  top: 7px;
+  right: 50px;
+  border-radius: 50%;
+}
+.invert_menu ul li a span.badge.active-blue {
+  background-color: #4673E6;
+  color: #F3F4F7;
+}
+
+.container_box {
+  padding-top: 20px;
+}
+.container_box .tittle {
+  font-weight: bold !important;
+}
+.container_box .tittle span {
+  font-weight: bold;
+}
+.container_box .status {
+  color: #4673E6 !important;
+  padding: 5px;
+}
+.container_box .iconos {
+  vertical-align: middle;
+}
+.container_box .font-size {
+  font-size: 20px;
+  height: 0;
+  padding-top: 35px;
+  color: black;
+}
+.container_box .blue {
+  color: #4673E6 !important;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container_box {
+  padding-left: 460px;
+}
+
+/*# sourceMappingURL=index.css.map */

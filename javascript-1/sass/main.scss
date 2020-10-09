@@ -1,0 +1,9 @@
+@import "colors";
+@import "menu";
+@import "typographic";
+
+body {
+    background-color: $color_gray;
+    width: 100%;
+    height: 100%;
+}
